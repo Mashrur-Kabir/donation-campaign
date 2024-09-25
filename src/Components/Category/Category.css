@@ -1,0 +1,11 @@
+.userContainer{
+    transition: transform 0.1s ease-in-out;
+}
+
+.userContainer:hover {
+    transform: scale(0.97);
+}
+
+.userContainer:active{
+    transform: scale(0.95);
+}

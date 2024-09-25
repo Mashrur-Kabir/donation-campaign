@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "picture": "https://i.postimg.cc/Fz0wFTGj/Consulting-Patient-1727237120.jpg",
+    "title": "Medical Aid for Rural Areas",
+    "category": "Health",
+    "text_btn_bg": "#ff9999",
+    "category_bg": "#ffcccc",
+    "text_color": "#990000",
+    "description": "Rural communities often lack access to essential medical supplies and healthcare services. Your donation will help us provide medical aid, including first aid kits, medication, and professional medical support, to these underserved areas. Together, we can make healthcare accessible to all.",
+    "price": 500
+  },
+  {
+    "id": 2,
+    "picture": "https://i.postimg.cc/MZPvStNC/Health-Event-1727237728.jpg",
+    "title": "Vaccination Drive",
+    "category": "Health",
+    "text_btn_bg": "#ff9999",
+    "category_bg": "#ffcccc",
+    "text_color": "#990000",
+    "description": "Vaccination is crucial to protecting children and adults from preventable diseases. This campaign focuses on organizing vaccination drives in areas where immunization coverage is low. With your support, we can ensure that more children receive life-saving vaccines.",
+    "price": 300
+  },
+  {
+    "id": 3,
+    "picture": "https://i.postimg.cc/j5MLghy4/Education-Interactive-1727237090.jpg",
+    "title": "School Supplies for Kids",
+    "category": "Education",
+    "text_btn_bg": "#ffcc99",
+    "category_bg": "#ffdab5",
+    "text_color": "#cc5200",
+    "description": "Children in low-income families often struggle to afford school supplies like books, uniforms, and stationery. Your donation can help them get the basic tools they need to succeed in school. Together, we can ensure that every child has the opportunity to learn and thrive.",
+    "price": 200
+  },
+  {
+    "id": 4,
+    "picture": "https://i.postimg.cc/kgtVw8jk/Weather-Presentation-1727237789.jpg",
+    "title": "Scholarship Fund",
+    "category": "Education",
+    "text_btn_bg": "#ffcc99",
+    "category_bg": "#ffdab5",
+    "text_color": "#cc5200",
+    "description": "Education opens the door to a brighter future, but many talented students can't afford higher education. Our scholarship fund helps deserving students pursue their dreams by covering tuition, books, and other expenses. Your contribution could change the life of a young scholar.",
+    "price": 1000
+  },
+  {
+    "id": 5,
+    "picture": "https://i.postimg.cc/XJzzkT1K/clothing-1727237158.jpg",
+    "title": "Winter Clothing for Homeless",
+    "category": "Clothing",
+    "text_btn_bg": "#99ccff",
+    "category_bg": "#cce6ff",
+    "text_color": "#003399",
+    "description": "As winter approaches, the homeless population faces harsh and life-threatening conditions. Your donation will go towards providing warm clothing, blankets, and other essentials to help keep them safe and comfortable during the cold months. Every contribution can make a huge difference.",
+    "price": 150
+  },
+  {
+    "id": 6,
+    "picture": "https://i.postimg.cc/j5CYQ6cf/clothing-shopping-1727237714.jpg",
+    "title": "Clothing for Refugees",
+    "category": "Clothing",
+    "text_btn_bg": "#99ccff",
+    "category_bg": "#cce6ff",
+    "text_color": "#003399",
+    "description": "Refugees often flee their homes with only the clothes on their backs. This campaign seeks to provide essential clothing items to displaced families, giving them the dignity and comfort they deserve. Your support will help us distribute clothing and other essentials to those in need.",
+    "price": 250
+  },
+  {
+    "id": 7,
+    "picture": "https://i.postimg.cc/TYTFVM9b/Cooking-Together-1727238243.jpg",
+    "title": "Meals for Homeless Shelters",
+    "category": "Food",
+    "text_btn_bg": "#99ff99",
+    "category_bg": "#ccffcc",
+    "text_color": "#248f24",
+    "description": "Nutritious meals are a basic necessity, yet many homeless individuals struggle to find enough food each day. By donating to this cause, you will help us provide fresh, healthy meals to homeless shelters. Your generosity can bring warmth and nourishment to those in need.",
+    "price": 100
+  },
+  {
+    "id": 8,
+    "picture": "https://i.postimg.cc/6pFqF37F/Healthy-Meal-1727237256.jpg",
+    "title": "Food Packages for Families",
+    "category": "Food",
+    "text_btn_bg": "#99ff99",
+    "category_bg": "#ccffcc",
+    "text_color": "#248f24",
+    "description": "Many families are struggling to put food on the table. This campaign aims to provide food packages filled with nutritious staples to families in need. By contributing, you are helping to ensure that these families won't go hungry, and they can focus on rebuilding their lives.",
+    "price": 400
+  },
+  {
+    "id": 9,
+    "picture": "https://i.postimg.cc/CKDdjqhm/Healthcare-Professionals-1727238471.jpg",
+    "title": "Mental Health Support",
+    "category": "Health",
+    "text_btn_bg": "#ff9999",
+    "category_bg": "#ffcccc",
+    "text_color": "#990000",
+    "description": "Mental health is just as important as physical health, but many people don't have access to the support they need. This initiative provides counseling and therapy services to those facing mental health challenges. Your donation will help fund these essential services and make mental health care accessible to everyone.",
+    "price": 350
+  },
+  {
+    "id": 10,
+    "picture": "https://i.postimg.cc/Y0jHz5NM/Learning-Computers-1727238510.jpg",
+    "title": "Digital Learning for Kids",
+    "category": "Education",
+    "text_btn_bg": "#ffcc99",
+    "category_bg": "#ffdab5",
+    "text_color": "#cc5200",
+    "description": "In today's world, digital literacy is key to success. Unfortunately, many children from underserved areas lack access to digital learning tools. By donating, you'll help us provide tablets, computers, and internet access to these children, giving them the tools they need to thrive in the digital age.",
+    "price": 600
+  },
+  {
+    "id": 11,
+    "picture": "https://i.postimg.cc/nrnx9srj/School-Uniform-1727238373.jpg",
+    "title": "School Uniforms for Children",
+    "category": "Clothing",
+    "text_btn_bg": "#99ccff",
+    "category_bg": "#cce6ff",
+    "text_color": "#003399",
+    "description": "For many children, attending school without a proper uniform can be a barrier to education. Your donation will provide school uniforms to children from low-income households, ensuring that they can attend school with pride and confidence, just like their peers.",
+    "price": 120
+  },
+  {
+    "id": 12,
+    "picture": "https://i.postimg.cc/zvxjwMzw/Food-Market-1727238201.jpg",
+    "title": "Community Kitchen",
+    "category": "Food",
+    "text_btn_bg": "#99ff99",
+    "category_bg": "#ccffcc",
+    "text_color": "#248f24",
+    "description": "Our community kitchen serves free meals to anyone in need, providing a vital lifeline for families and individuals struggling with food insecurity. By donating, you help us keep the kitchen running and provide nourishing meals to those who need it most.",
+    "price": 700
+  }
+]

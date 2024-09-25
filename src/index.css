@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.fontInter{
+    font-family: "Inter", sans-serif;
+}
+
+.nav-active{
+   @apply underline text-red-600 font-bold text-lg;
+}
+
+.nav-inactive {
+    @apply hover:underline hover:text-red-600 text-lg;
+}
