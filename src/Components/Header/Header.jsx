@@ -1,7 +1,9 @@
 import { NavLink } from 'react-router-dom';
 import tree from '../../assets/Resources/christmas-tree.png'
 
+
 const Header = () => {
+
     return (
         <div className='flex items-center justify-between pt-10 fontInter max-w-7xl mx-auto'>
             <div className="flex items-center gap-8">
