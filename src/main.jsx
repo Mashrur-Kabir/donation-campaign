@@ -8,6 +8,7 @@ import './index.css'
 import Root from './Components/Root/Root';
 import ErrorPage from './Components/ErrorPage/ErrorPage';
 import Home from './Components/Home/Home';
+import BranchDetails from './Components/branchDetails/branchDetails';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,11 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>
+      },
+      {
+        path: "/category/:id",
+        loader: () => fetch('/campaign.json'),
+        element: <BranchDetails></BranchDetails>
       }
     ],
   },
