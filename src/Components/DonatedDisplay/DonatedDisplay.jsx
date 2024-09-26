@@ -7,7 +7,7 @@ const DonatedDisplay = ({ branch }) => {
   
 
   return (
-    <div className="flex items-stretch rounded-lg shadow-lg gap-6" style={{ backgroundColor: category_bg }}>
+    <div className="flex items-stretch rounded-lg shadow-lg gap-6 fontInter" style={{ backgroundColor: category_bg }}>
         <div className="w-2/5">
             <img className="rounded-l-lg object-cover w-full h-full" src={picture} alt={title} />
         </div>
