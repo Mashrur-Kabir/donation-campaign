@@ -7,6 +7,7 @@ import ErrorPage from "./Components/ErrorPage/ErrorPage";
 import Home from "./Components/Home/Home";
 import BranchDetails from "./Components/branchDetails/branchDetails";
 import Donated from "./Components/Donated/Donated";
+import Statistics from "./Components/Statistics/Statistics";
 
 const router = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router = createBrowserRouter([
         loader: () => fetch("/campaign.json"),
         element: <Donated></Donated>,
       },
+      {
+        path: "/statistics",
+        loader: () => fetch("/campaign.json"),
+        element: <Statistics></Statistics>
+      }
     ],
   },
 ]);
