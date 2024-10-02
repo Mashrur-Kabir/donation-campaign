@@ -2,6 +2,7 @@ import { useState } from "react";
 import Categories from "../categories/Categories";
 import Header from "../Header/Header";
 import './Home.css'
+import { Helmet } from "react-helmet-async";
 
 const Home = () => {
 
@@ -15,6 +16,9 @@ const Home = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Donation Campaign | Home</title>
+            </Helmet>
             <div className="fontInter homeImg pb-60 mb-[100px]">
                 <div className="mb-28">
                     <Header></Header>
