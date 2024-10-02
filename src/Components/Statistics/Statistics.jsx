@@ -4,6 +4,7 @@ import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import { useEffect, useRef } from "react";
 import { getPreviousDonations } from "../../Utility/localStorage";
 import Header from "../Header/Header";
+import { Helmet } from "react-helmet-async";
 
 // Register Chart.js components
 ChartJS.register(ArcElement, Tooltip, Legend);
@@ -59,6 +60,10 @@ const Statistics = () => {
 
     return (
         <div className="fontInter mb-32">
+            <Helmet>
+                <title>Donation Campaign | Stats</title>
+            </Helmet>
+            
             <div className="mb-20">
                 <Header />
             </div>

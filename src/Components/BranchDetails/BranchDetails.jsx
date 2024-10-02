@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import '../Category/Category.css'
 import { saveNewDonation } from "../../Utility/localStorage";
 import Swal from 'sweetalert2';
+import { Helmet } from "react-helmet-async";
 
 const BranchDetails = () => {
 
@@ -39,6 +40,10 @@ const BranchDetails = () => {
 
     return (
         <div className="max-w-7xl mx-auto fontInter mb-32">
+            <Helmet>
+                <title>Donation Campaign | Branch Details</title>
+            </Helmet>
+            
             <div className="mb-28">
                 <Header/>
             </div>

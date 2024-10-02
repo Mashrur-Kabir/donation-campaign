@@ -4,6 +4,7 @@ import DonatedDisplay from "../DonatedDisplay/DonatedDisplay";
 import { getPreviousDonations } from "../../Utility/localStorage";
 import { useState } from "react";
 import { AiOutlineInbox } from 'react-icons/ai'; // Using an icon library for an empty state
+import { Helmet } from "react-helmet-async";
 
 const Donated = () => {
   const prevData = getPreviousDonations();  // Fetch donations from localStorage (example response = ['6', '12']; array of strings)
@@ -19,6 +20,10 @@ const Donated = () => {
 
   return (
     <div className="max-w-7xl mx-auto relative">
+        <Helmet>
+            <title>Donation Campaign | Donated</title>
+        </Helmet>
+
         <div className="mb-28">
             <Header />
         </div>
